@@ -1,0 +1,53 @@
+[
+	{
+		"id": 1,
+		"des": {
+			"url": "http://demows.cyberbill.vn/api/services/hddtws/Authentication/GetToken",
+			"method": "POST",
+			"contenttype": "application/json"
+		}
+	},
+        {
+		"id": 2,
+		"des": {
+			"url": "http://demows.cyberbill.vn/api/services/hddtws/GuiHoaDon/GuiVaKyHoadonGocHSM",
+			"method": "POST",
+			"contenttype": "application/json"
+		}
+	},
+	{
+		"id": 3,
+		"des": {
+			"url": "http://demows.cyberbill.vn/api/services/hddtws/GuiHoaDon/GuiVaKyHoaDonHuyBoHSM",						
+			"method": "POST",
+			"contenttype": "application/json"
+		}
+	},
+	
+	
+	{
+		"id": 4,
+		"des": {
+			"url": "http://demows.cyberbill.vn/api/services/hddtws/GuiHoaDon/TraThongTinHoaDon",
+			"method": "POST",
+			"contenttype": "application/json"
+		}
+	},
+	
+	{
+		"id": 5,
+		"des": {
+			"url": "http://demows.cyberbill.vn/api/services/hddtws/GuiHoaDon/TaiHoaDonPdf",
+			"method": "POST",
+			"contenttype": "application/json"
+		}
+	},
+	{
+		"id": 6,
+		"des": {
+			"url": "http://demows.cyberbill.vn/api/services/hddtws/GuiHoaDon/GuiMailHoaDon",
+			"method": "POST",
+			"contenttype": "application/json"
+		}
+	}
+]

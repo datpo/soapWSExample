@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+	xmlns:tns="http://www.cyber.com/ws/"
+	targetNamespace="http://www.cyber.com/ws/">
+	
+	<element name="getInfoCyberBillRequest">
+		<complexType>
+			<sequence>
+				<element name="id" type="int" />
+				<element name="base64body" type="string" />
+				<element name="auth" type="string" />
+			</sequence>
+		</complexType>
+	</element>
+
+	<element name="getInfoCyberBillResponse">
+		<complexType>
+			<sequence>
+				<element name="result" type="string" />
+			</sequence>
+		</complexType>
+	</element>
+</schema>
